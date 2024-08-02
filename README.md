@@ -1,24 +1,33 @@
-# Pibit_assignment
-
 # Resume Parser
 
-This project contains a script to parse resume content into a structured JSON format.
+This Python script parses a resume and converts it into a structured JSON format using OpenAI's ChatGPT API.
+
+## Requirements
+
+- Python 3.6 or higher
+- OpenAI Python client library
+
+## Setup
+
+1. **Install Dependencies**: Ensure you have the OpenAI client library installed. You can install it using pip:
+
+    ```bash
+    pip install openai
+    ```
+
+2. **API Key**: Obtain an API key from OpenAI and set it in the script. If you don't have an API key, you can get one by signing up on the [OpenAI website](https://beta.openai.com/signup/).
 
 ## Usage
 
-1. Clone the repository:
+1. **Script Configuration**: Open the `resume_parser.py` file and replace `'your-openai-api-key'` with your actual OpenAI API key.
+
+2. **Provide Resume Content**: Update the `resume_content` variable with the resume text you want to parse.
+
+3. **Run the Script**: Execute the script using Python:
+
     ```bash
-    git clone https://github.com/bhumikabiyani/Pibit_assignment.git
-    cd Pibit_assignment
+    python resume_parser.py
     ```
 
-2. Run the script with your resume content:
-    ```bash
-    python parse_resume.py
-    ```
+4. **View Output**: The script will print the parsed resume in JSON format.
 
-## Example
-Prompt Link
-```https://chatgpt.com/share/3456f20e-96a7-46a4-a8d2-c21ae5b11911```
-
-The script will take a resume as input and output a JSON structure with sections like Personal Information, Experience, Education, Projects, Skills, and Certifications.
