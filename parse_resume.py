@@ -62,6 +62,6 @@ def parse_resume(resume_text):
     return parsed_data
 
 if __name__ == "__main__":
-    resume_text = """[Insert Resume Content Here]"""
+    resume_text = input("Please enter the resume content: ")
     parsed_data = parse_resume(resume_text)
     print(json.dumps(parsed_data, indent=4))
