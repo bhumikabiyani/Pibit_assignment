@@ -12,12 +12,7 @@ This project contains a script to parse resume content into a structured JSON fo
     cd Pibit_assignment
     ```
 
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Run the script with your resume content:
+2. Run the script with your resume content:
     ```bash
     python parse_resume.py
     ```
