@@ -9,7 +9,7 @@ This project contains a script to parse resume content into a structured JSON fo
 1. Clone the repository:
     ```bash
     git clone https://github.com/bhumikabiyani/Pibit_assignment.git
-    cd resume-parser
+    cd Pibit_assignment
     ```
 
 2. Install the required dependencies:
